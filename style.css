@@ -28,7 +28,7 @@ h1 {
 }
 
 .ctn1 {
-    background-image: url("bunker.png");
+    background-image: url("outside.png");
 }
 
 .ctn2 {
@@ -49,15 +49,14 @@ h1 {
     flex-direction: column;
 }
 
-input, textarea {
+input {
+    padding-left: 5px;
     flex: 1;
+    font-size: 1rem;
     width: 20rem;
     margin-bottom: 1rem;
     margin-top: 3rem;
     border-radius: 20px;
-}
-
-input {
     height: 3rem;
 }
 
